@@ -42,3 +42,9 @@ This code will turn on and off the LED on the Attinny 85 thank to loop function.
 3) And now plug the Attinny 85 on your computer.
 
 Congratulation, you know now how to upload your program into the attinny 85 !
+
+
+
+## Inspiration
+
+You can check this [github repository](https://github.com/MTK911/Attiny85) to inject malicious program into the computer's victim.

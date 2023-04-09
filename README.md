@@ -1,4 +1,4 @@
- # UsBad <img src="src\img\logo.png" alt="Logo" width="96" align="center">
+ # USBad <img src="src\img\logo.png" alt="Logo" width="96" align="center">
 
 ## What is it about ?
 This repo is intended to show how you can design and use scripts via macro injections through Digispark-85 board.
@@ -25,33 +25,6 @@ This repo is for demonstration only. <br/>
 By default, your Digispark memory is empty. <br/>
 you'll need to flash your board with your script through Arduino IDE.
 
-You can follow this tutorial to setup your flash process : <br/>
-SAMUEL TU METS TON LIEN ICI FDP
+You can follow [this tutorial](https://www.locoduino.org/spip.php?article285) to setup your flash process.
 
-```arduino
- // the setup routine runs once when you press reset:
-    void setup() {                
-      // initialize the digital pin as an output.
-      pinMode(0, OUTPUT); //LED on Model B
-      pinMode(1, OUTPUT); //LED on Model A  or Pro
-    }
-     
-    // the loop routine runs over and over again forever:
-    void loop() {
-      digitalWrite(0, HIGH);   // turn the LED on (HIGH is the voltage level)
-      digitalWrite(1, HIGH);
-      delay(100);               // wait for a second
-      digitalWrite(0, LOW);    // turn the LED off by making the voltage LOW
-      digitalWrite(1, LOW); 
-      delay(100);               // wait for a second
-    }
-```
-This code will turn on and off the LED on the Attinny 85 thank to loop function.
-
-1) Now, compile this code by clicking on the button check on top left. <img src="src\img\check.png" alt="Logo" width="36" align="center">
-
-2) Now, upload on the Attinny 85 by clicking on the button right side the check button. <img src="src\img\upload.png" alt="Logo" width="36" align="center">
-
-3) And now plug the Attinny 85 on your computer.
-
-Congratulation, you know now how to upload your program into the attinny 85 !
+Congratulations, now you can start scripting !

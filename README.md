@@ -30,4 +30,4 @@ You can follow [this tutorial](https://www.locoduino.org/spip.php?article285) to
 Congratulations, now you can start scripting !
 
 ## Source Of Inspiration :
-You can find an [other repository](https://github.com/MTK911/Attiny85) which we use to create UsBad project.
+You can find an [other repository](https://github.com/MTK911/Attiny85) which we use to create UsBad project. <br/>

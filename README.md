@@ -3,12 +3,12 @@
 ## What is it about ?
 This repo is intended to show how you can design and use scripts via macro injections through Digispark-85 board.
 
-## Disclaimer
+## Disclaimer :
 
 This repo is for demonstration only. <br/>
 **Please don't use injection on real people !**
 
-## Base requirements
+## Base requirements : 
 
 - Arduino IDE.
 - Attinny 85 Digispark.
@@ -20,7 +20,7 @@ This repo is for demonstration only. <br/>
 - Default keyboard layout is QWERTY, you can change this by modifying `scancode-ascii-table.h` in your arduino library
 
 
-## Flashing your Digispark
+## Flashing your Digispark :
 
 By default, your Digispark memory is empty. <br/>
 you'll need to flash your board with your script through Arduino IDE.
@@ -28,3 +28,6 @@ you'll need to flash your board with your script through Arduino IDE.
 You can follow [this tutorial](https://www.locoduino.org/spip.php?article285) to setup your flash process.
 
 Congratulations, now you can start scripting !
+
+## Source Of Inspiration :
+You can find an [other repository](https://github.com/MTK911/Attiny85) which we use to create UsBad project.

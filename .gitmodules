@@ -1,0 +1,3 @@
+[submodule "MTK911"]
+	path = MTK911
+	url = https://github.com/MTK911/Attiny85
